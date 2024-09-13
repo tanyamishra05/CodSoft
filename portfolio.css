@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "jost";
+  }
+  .point{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(231, 192, 192);
+  }
+  .grids{
+  display: grid;
+  height: 100vh;
+  width: 60vw;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 50% 30% 20%;
+  gap: 2%;
+  }
+  .grids1{
+    background-color: rgb(226, 215, 174);
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border-radius: 10px;
+  }
+  .user{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px 10px 10px;
+  color: rgb(160, 126, 126);
+  font-size: 20px;
+  }
+  .writeup{
+    text-align: center;
+    font-size: 12px;
+  }
+  .click{
+    background-color: rgb(217, 191, 191);
+    border: 1px solid transparent;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 15px 10px 40px 35px;
+    width: 10vw;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  .grids2{
+    background-color: white;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    border-radius: 10px;
+  
+  }
+  .fav_movie{
+    margin-top: 25px;
+    margin-left: 40px;
+    font-size: 30px;
+    color: rgb(76, 73, 73);
+  }
+  
+  .moviess{
+    display: inline-flex;
+  
+  }
+  .movie_logo img{
+    height: 20vh;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .movie_discriptions{
+    margin-top: 40px;
+  }
+  
+  .grids3{
+    background-color: rgb(118, 115, 120);
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border-radius: 10px;
+  
+  }
+  .connect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 19px; 
+  
+  }
+  .logos{
+    height: 30px;
+    margin-top: 70px;
+    display: grid;
+    place-items: center;
+  
+  }
+  .button{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(209, 201, 201);
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    box-shadow: 0px 10px 10px rgb(0, 0, 0, 0.1);
+  }
+  .wrapper .button .icon{
+    font-size: 20px;
+  }
+  .wrapper .button:hover{
+    width: 70px;
+    transition: 0.5s;
+  }
+  .linkedin:hover{
+  background-color: #583e4a;
+  border-radius: 50px;
+  }
+  .twitter:hover{
+    background-color: #479298;
+    border-radius: 50px;
+    }
+    .instagram:hover{
+    background-color: #812654;
+    border-radius: 50px;
+    }
+    .facebook:hover{
+    background-color: #94a2b7;
+    border-radius: 50px;
+    }
+  .grids4{
+    background-color: rgb(55, 161, 183);
+    grid-column: 1/3;
+    grid-row: 3;
+    border-radius: 10px;
+  }
+  .about{
+    margin: 20px 0px 0px 40px;
+    color: rgb(76, 73, 73);
+  }
+  .discription{
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+  }
+  a{
+    list-style-type: none;
+    color: black;
+  }

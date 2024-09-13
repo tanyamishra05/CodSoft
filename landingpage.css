@@ -1,0 +1,189 @@
+ *{
+    margin: 0;
+    padding:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+
+ }
+ html, body{
+    width:100%;
+    height:100%;
+
+ }
+ #main{
+    width:100%;
+     min-height:100vh;
+}
+#top{
+    width : 100%;
+   min-height:60vh;
+    background-image: url(https://i.pinimg.com/564x/a9/c0/e4/a9c0e4e2ada74b7b699f8957d07e14c1.jpg);
+    background-size: cover;
+    background-position: 50% 60%;
+
+}
+#overlay{
+    position: relative;
+    width:100%;
+    min-height:inherit;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+#text{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 20%;
+    width:100;
+    color: rgb(7, 7, 7);
+    padding: 0 10vw;
+    
+}
+#textright{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#textright p{
+    font-size: 12px;
+    width:40%;
+}
+#textright i{
+    color: aliceblue;
+
+}
+#text h1{
+    font-weight: 500;
+    font-size: 6vw;
+}
+#bottom{
+    display: flex;
+    width : 100%;
+    min-height:40vh;
+    background-color: rgb(0, 251, 255);
+}
+#bottomone{
+    padding:30px;
+    
+   width: 25%;
+   
+   min-height:inherit;
+   background-color: white;
+    
+}
+#bottomone p{
+    font-size: 12px;
+    margin-top: 20px;
+
+}
+#bottomtwo{
+    
+    width: 25%;
+    min-height:inherit;
+    background-image: url(https://i.pinimg.com/564x/c0/3d/1b/c03d1b17dc8c9731a945e17871ac7743.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#bottomthree{
+    
+    width:20%;
+    min-height:inherit;
+    background-color : rgb(228, 19, 235) ;
+}
+#bottomthree top{
+    
+    width: 100%;
+    min-height : 20vh;
+    padding:20px;
+    background-color : orangered;
+}
+#bottomthree top p{
+    margin-top:12px;
+    font-size: 10px;
+    color:aliceblue
+}
+#bottomthree bottom{
+    
+    width: 100%;
+    min-height : 20vh;
+    background-image :url(https://media.istockphoto.com/id/861375722/vector/creative-art-header-with-different-shapes-and-textures.jpg?s=1024x1024&w=is&k=20&c=cZ1d8PGZ5a4JGhRBXOg_5knLbo4Xi8WCjqZyQ0_dnzI=) ;
+    background-size: cover;
+}
+#bottomfour{
+
+    width:30%;
+    min-height:inherit;
+    padding:30px;
+    background-color:#444 ;
+    color:white;
+}
+.notf{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+}
+.notf #photo{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+}
+.notf p{
+    width: 86%;
+    font-size: 12px;
+}
+@media(max-width:500px){
+    #overlay #text{
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    #text h1{
+        font-size: 10vw;
+
+    }
+    #bottom{
+        min-height:20vh ;
+    }
+    #overlay #text #textright{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    #overlay #text #textright p{
+        width:initial;
+        margin-top:20px;
+
+    }
+    #overlay #text #textright icons{
+
+        margin-top:30px ;
+
+    }
+    #bottom{
+        flex-direction: column;
+
+    }
+    #bottomone{
+        width:100%;
+    }
+    #bottomtwo{
+
+        width:100%;
+        min-height:40vh ;
+    }
+    #bottomthree{
+        flex-direction: column;
+        width:100%;
+    }
+    #bottomthree{
+        min-height: 40vh;
+    }
+    #bottomfour{
+        width:100%;
+    }
+    
+    
+}
